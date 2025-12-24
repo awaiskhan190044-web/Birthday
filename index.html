@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>First anniversary of love ❤️</title>
+
+  <!-- Mobile Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ✅ CSS PATH FIXED -->
+  <link rel="stylesheet" type="text/css" href="./css/format.css">
+</head>
+
+<body style="margin:0px">
+
+  <!-- Background Music -->
+  <audio autoplay loop>
+    <source src="./music/music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Stars Canvas -->
+  <canvas></canvas>
+
+  <!-- Image + Text -->
+  <div id="imgTxt">
+    <span id="Txt"></span><br>
+    <span id="tmp"></span>
+    <img id="img" src="" alt="Our Memory">
+  </div>
+
+  <!-- Heart Button -->
+  <div id="heartTxt">
+    <span id="clickMe">Click!</span>
+    <div id="heart">
+      <button id="button" onclick="play()"></button>
+    </div>
+  </div>
+
+  <!-- Timer Section -->
+  <div id="content">
+    <h2 id="together">
+      Days jb se meri choti dunya ka birth hua ❤️
+    </h2>
+
+    <div id="timer">
+      <b id="d"></b> Days
+      <b id="h"></b> Hours
+      <b id="m"></b> Minutes
+      <b id="s"></b> Seconds
+    </div>
+  </div>
+
+  <!-- Typing Text -->
+  <div id="typeDiv">
+    <span id="txt1"></span><br>
+    <span id="txt2"></span>
+  </div>
+
+  <!-- ================= JS LOGIC ================= -->
+  <script>
+    var ok = 0;
+    var flag = 1;
+
+    var myImage = document.getElementById("img");
+    var myTxt = document.getElementById("Txt");
+
+    /* ✅ IMAGE PATHS FIXED */
+    var imageArray = [
+      "pic/pic1.png",
+      "pic/pic2.png",
+      "pic/pic3.png",
+      "pic/pic4.png",
+      "pic/pic5.png",
+      "pic/pic6.png",
+      "pic/pic7.png",
+      "pic/pic8.png",
+      "pic/pic9.png",
+      "pic/pic10.png",
+      "pic/pic11.png",
+      "pic/pic12.png",
+      "pic/pic13.png",
+      "pic/pic14.png",
+      "pic/pic15.png",
+      "pic/pic16.png"
+    ];
+
+    var imageIndex = 0;
+
+    var txtArray = [
+      "Hello mah wifey, meri pyari si jaan~ 💕👑",
+      "Meri taraf se meri jaan ko janam din mubarak ho 🎂🎉🎁",
+      "Allah kare hum har saal aise hi saath celebrate karein 🤲❤️",
+      "Har saal aap aur pyari hoti jao 💖✨",
+      "Meri nazar mein aap duniya ki sab se khoobsurat larki ho 😍🌸",
+      "Itni umar mein bhi love letter likhna sharam wali baat hai(/ω＼)💌",
+      "Main apni zindagi ka har lamha aap ke saath guzarna chahta hoon ❤️",
+      "Meri dua hai ke 30 saal baad bhi aise hi pyar karta rahoon 🤍",
+      "(Phir bhi jaan bohat cute ho 😌💕)",
+      "Itni cute hona crime hai 🚨😍",
+      "Agla birthday saath celebrate karne ka wada 🥺🎂",
+      "Haath pakar kar walk karna, kitni khushi~ 🚶‍♂️🚶‍♀️💞",
+      "Jo chota sa gift banaya acha laga? 🎁🥰",
+      "Apna time nikal kar sirf aap ke liye 💝",
+      "Meri choti si dunya, main aap se bohat mohabbat karta hoon 🌍❤️",
+      "Aur hamesha karta rahoon ga, InshaAllah 🤍🤲"
+    ];
+
+    var len = imageArray.length;
+    var t = 0;
+  </script>
+
+  <!-- ✅ JS PATHS FIXED -->
+  <script src="./js/stars.js"></script>
+  <script src="./js/typeWriter.js"></script>
+  <script src="./js/date.js"></script>
+  <script src="./js/playImg.js"></script>
+
+</body>
+</html>
